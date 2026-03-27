@@ -9,8 +9,7 @@ Simulación del sistema cuántico descrito en el **Capítulo 4** de
 
 ```
 quantum_chapter4/
-├── README.md                  ← este archivo
-├── requirements.txt           ← dependencias Python
+├── README.md                  ← este archivo        ← dependencias Python
 ├── quantum_simulator.py       ← librería principal
 └── quantum_chapter4.ipynb    ← notebook Jupyter con todos los ejercicios
 ```
