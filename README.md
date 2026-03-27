@@ -17,35 +17,6 @@ quantum_chapter4/
 
 ---
 
-## Instalación
-
-### 1. Clonar / descargar el repositorio
-
-```bash
-git clone https://github.com/tu-usuario/quantum-chapter4.git
-cd quantum-chapter4
-```
-
-### 2. Instalar dependencias
-
-```bash
-pip install -r requirements.txt
-```
-
-Las dependencias son:
-- `numpy` — álgebra lineal y números complejos
-- `scipy` — descomposición SVD extendida
-- `matplotlib` — visualizaciones
-- `jupyter` / `ipykernel` — entorno de notebook
-
-### 3. Abrir el notebook
-
-```bash
-jupyter notebook quantum_chapter4.ipynb
-```
-
----
-
 ## Librería `quantum_simulator.py`
 
 | Clase | Descripción |
@@ -137,24 +108,6 @@ El estado $|\phi\rangle = |x_0\rangle\otimes|y_1\rangle + |x_1\rangle\otimes|y_1
 es **separable** porque la matriz de coeficientes tiene rango 1.
 Factoriza como $(|x_0\rangle + |x_1\rangle) \otimes |y_1\rangle$:
 la segunda partícula siempre está en $|y_1\rangle$, sin correlaciones cuánticas.
-
----
-
-## Conceptos Teóricos Cubiertos
-
-| Concepto | Ecuación | Sección |
-|----------|----------|---------|
-| Normalización | $\sum|c_i|^2 = 1$ | 4.1 |
-| Probabilidad de posición | $P(x_i) = |c_i|^2$ | 4.1 |
-| Amplitud de transición | $\langle\phi|\psi\rangle$ | 4.1 |
-| Probabilidad de transición | $|\langle\phi|\psi\rangle|^2$ | 4.1 |
-| Hermiticidad | $\Omega = \Omega^\dagger$ | 4.2 |
-| Valor esperado | $\langle\Omega\rangle = \langle\psi|\Omega|\psi\rangle$ | 4.2 |
-| Varianza | $\text{Var} = \langle\Omega^2\rangle - \langle\Omega\rangle^2$ | 4.2 |
-| Colapso cuántico | $P(\lambda_i) = |\langle e_i|\psi\rangle|^2$ | 4.3 |
-| Evolución unitaria | $|\psi(t+1)\rangle = U|\psi(t)\rangle$ | 4.4 |
-| Producto tensorial | $V \otimes V'$ | 4.5 |
-| Entrelazamiento | Estado no separable | 4.5 |
 
 ---
 
